@@ -1,0 +1,39 @@
+.our-projects {
+  text-align: center;
+  padding: 50px;
+}
+
+.our-projects h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.our-projects p {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.project-filters {
+  margin-bottom: 30px;
+}
+
+.project-filters button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.project-filters .active {
+  background-color: #007bff;
+  color: white;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
